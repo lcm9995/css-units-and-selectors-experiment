@@ -1,0 +1,50 @@
+
+.flexContainer, .columnParent, .box{
+	display: flex;
+	flex-direction: column;
+}
+.flexContainer{
+	gap: 15px;
+}
+
+.headerParent, .rowParent {
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(216, 191, 250);
+}
+.rowParent {
+	gap: 30px;
+	justify-content: center;
+}
+img + p {
+	font-size: 2vw;
+	font-weight: bold;
+}
+.box > img{
+	width: 20vw;
+	height: auto;
+}
+.rowParent > .box{
+	background-color: white;
+	margin: 10px;
+	padding: 5px;
+}
+.headerParent {
+	justify-content: space-between;
+	padding-left: 4vw;
+	padding-right: 4vw;
+}
+.headerParent > img{
+	width: 8vmax; 
+	height: auto;
+	margin-bottom: 1vh;
+	margin-top: 1vh;
+	border-style: solid;
+	border-color: white;
+	border-width: 1vh;
+}
+.headerParent > h1{
+	font-size: 5vmax;
+}
+
+
